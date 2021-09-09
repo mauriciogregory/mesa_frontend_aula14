@@ -1,0 +1,31 @@
+* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2:hover {
+    color: blue;
+}
+
+input:focus {
+    background-color: rgb(183, 247, 247);
+}
+
+fieldset:nth-child(1){
+    color: blueviolet;
+}
+
+input, label {
+    display: block;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+input:disabled {
+    background: gray;
+}
+
+input:enabled {
+    background: rgb(190, 158, 155);
+}
