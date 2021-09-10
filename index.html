@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Autividade 19 de Frontend</title>
 </head>
+
 <body>
     <h1>Aula de Frontend</h1>
     <h2>Atividade 19 - Mesa de Trabalho</h2>
 
     <section>
         <fieldset>
-            <form action="POST">
+            <form action="POST" class="form1">
                 <label for="nome">Nome: </label>
                 <input type="text" id="name" placeholder="Sobrenome" required>
 
@@ -27,16 +29,31 @@
     </section>
     <section>
         <fieldset>
-            <form action="POST">
-                <label for="turma">Turma</label>
+            <form action="POST" class="turma">
+
+                <label for="turma">Escolha a sua Turma:</label>
+                <br>
+                <input type="radio" name="1" id="um" checked >
+                <label for="um">Turma 1</label>
+                <input type="radio" name="1" id="dois">
+                <label for="dois">Turma 2</label>
             </form>
         </fieldset>
-        <div>
 
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium numquam at molestias unde. Maiores, rem, in iusto amet saepe soluta quibusdam veniam, eaque consequatur repudiandae obcaecati asperiores voluptatum suscipit.</p>
-        </div>
+        <article>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laudantium numquam at molestias unde.
+                    Maiores, rem, in iusto amet saepe soluta quibusdam veniam, eaque consequatur repudiandae obcaecati
+                    asperiores voluptatum suscipit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, provident suscipit sapiente
+                    corrupti necessitatibus illum, itaque dolorem harum magni amet voluptatum dolores? Consequuntur
+                    debitis aliquam reprehenderit possimus iure impedit vel!</p>
+            </div>
+            <div class="link">
+                <a href="#">Descrição da Página Web.</a>
+            </div>
+        </article>
     </section>
 </body>
+
 </html>
